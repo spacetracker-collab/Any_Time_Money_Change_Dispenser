@@ -96,10 +96,10 @@ To keep it simple :
 
 The program works exactly on the values and formats as shown in the example sheet.  In addition to the example sheet the following were also tested
 
-a) Withdrawal with zero amount
-b) Depositing 3 10s
-c) Withdrawing  a 1 after the prior deposit
-d) Entering 0 as the deposit
+* Withdrawal with zero amount
+* Depositing 3 10s
+* Withdrawing  a 1 after the prior deposit
+* Entering 0 as the deposit
 
 The program gave the correct inputs.
 
