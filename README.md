@@ -84,13 +84,13 @@ The code completely follows the happy path as described in the question
 
 To keep it simple : 
 
-a) The program is completely console driven
-b) All the Java files are POJOs
-c) The ATM class is singleton
-d) String based utilities are in a separate class
-e) All output is moved to GenericOutput so as to be extensible and configurable
-f) There is a class called DenomStore which can be extended with further denominations of 50 and 100
-c) Suitable null checks and try catch exceptions are provided
+* The program is completely console driven
+* All the Java files are POJOs
+* The ATM class is singleton
+* String based utilities are in a separate class
+* All output is moved to GenericOutput so as to be extensible and configurable
+* There is a class called DenomStore which can be extended with further denominations of 50 and 100
+* Suitable null checks and try catch exceptions are provided
 
 **Testing** 
 
@@ -103,4 +103,10 @@ d) Entering 0 as the deposit
 
 The program gave the correct inputs.
 
+**Methodology**
+
 The program was written in Java 1.8 in approximately 6 hours with internet access to access certain Java APIs (String Split as StringTokenizer is legacy) on Eclipse Kepler on an AMD Duron processor based HP Laptop.
+
+**Contact**
+
+For queries contact r_a_m_k_u_m_a_r.i_y_e_r@gmail.com. Remove the underscores.
