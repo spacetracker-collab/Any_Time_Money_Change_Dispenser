@@ -11,14 +11,13 @@ This can also be a FinTech problem. From Wikipedia : Computer programs and other
 
 
 
-**Automated_Teller_Machine_Change_Dispenser
+**Automated_Teller_Machine_Change_Dispenser**
 
 This is a project  I did for an  interview
 
 The following was the problem
 
-**Java Coding Requirement Sheet: 
-
+**Java Coding Requirement Sheet**
 
 Develop a program called ATM. It allows customers to deposit and withdraw in these denominations: 20, 10, 5, and 1 dollar bills.
 
@@ -35,7 +34,7 @@ W.2) If the input amount is in valid range, print the number of current notes di
 W.3) If any denomination is not available to cover the withdrawal amount, do not reduce the balances. Instead, print "Requested withdraw amount is not dispensable". See Withdraw 3 scenario below.
 
 
-**Example**
+**Examples**
 
 Deposit 1: 10s: 8, 5s: 20
 Balance: 20s=0, 10s=8, 5s=20, 1s=0, Total=180
@@ -67,7 +66,7 @@ Output: "Incorrect or insufficient funds"
 
 Tips: This program should be expandable to support 50s and 100s in future. Please allow the program to support any denominations with little or no code change.
 
-**Sample Framework
+**Sample Framework**
 
 public class ATM {
    public void deposit(...) {
